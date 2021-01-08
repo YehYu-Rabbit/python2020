@@ -2,7 +2,7 @@
 # 1.Python入門
 ```
 1.要在螢幕輸出Hello, Python!  底下程式需使用哪個函數:
-
+(A)
 #!/usr/bin/python3
 ________("Hello, Python!")
 
@@ -10,7 +10,7 @@ ________("Hello, Python!")
 ```
 ```
 2.要在程式碼中新增一行註解，底下程式需使用哪個符號:
-
+(C)
 #!/usr/bin/python3
 __這是一行註解
 print("Hello, Python!")
@@ -28,7 +28,7 @@ print("Hello, Python!")
 ```
 ```
 4.要檢查變數資料型別 底下程式需使用哪個函數:
-
+(C)
 #!/usr/bin/python3
 y = 65535
 print(______(y))
@@ -38,7 +38,7 @@ print(______(y))
 ```
 ```
 5.試問以下程式執行後輸出什麼:
-
+(A)
 #!/usr/bin/python3
 y = 65535
 print(type(y))
@@ -47,7 +47,7 @@ print(type(y))
 ```
 ```
 6.要在程式碼中進行資料型態轉換 底下程式需使用哪個函數將x轉換成float:
-
+(C)
 #!/usr/bin/python3
 x = 65535
 ______(x)
@@ -56,7 +56,7 @@ ______(x)
 ```
 ```
 7.要計算一個字串長度 底下程式需使用哪個函數:
-
+(B)
 #!/usr/bin/python3
 string1 = "Hello, Python!"
 print(___________(string1))
@@ -65,7 +65,7 @@ print(___________(string1))
 ```
 ```
 8.試問以下程式執行後輸出什麼結果:
-
+(B)
 #!/usr/bin/python3
 print(100 < 200)
 
@@ -74,9 +74,10 @@ print(100 < 200)
 # 2.資料型態及其運算 DataType
 ```
 9.要定義一個整數變數a  底下程式碼需填入什麼:
+(C)
 #!/usr/bin/python3
 a = ___________
-
+(A)
 (A) 1
 (B) 1.0
 (C) 100 / 10
@@ -84,10 +85,11 @@ a = ___________
 ```
 ```
 10.試問以下程式執行後輸出什麼結果:
+(D)
 #!/usr/bin/python3
 a = bool(100)
 print(a)
-
+(D)
 (A) 0
 (B) 100
 (C) False
@@ -95,14 +97,16 @@ print(a)
 ```
 ```
 11.要在螢幕輸出變數x的資料型態  底下程式需使用哪個函數:
+(B)
 #!/usr/bin/python3
 a = 100
 print(_______(a))
-
+()
 (A) any   (B) type   (C) complex   (D) bin
 ```
 ```
 12.試問以下程式執行後輸出什麼結果:
+(A)
 #!/usr/bin/python3
 a = “Python!”
 print(type(a))
@@ -119,6 +123,7 @@ print(type(a))
 ```
 ```
 14.試問以下程式執行後輸出什麼結果:
+(D)
 #!/usr/bin/python3
 a = ["Python", "True", "1234"]
 print(type(a))
@@ -127,6 +132,7 @@ print(type(a))
 ```
 ```
 15.試問以下程式執行後輸出什麼結果:
+(B)
 #!/usr/bin/python3
 a = {"name" : "Eric", "age" : 90}
 print(type(a))
@@ -136,7 +142,7 @@ print(type(a))
 ## 字串1
 ```
 16.試問若要定義一字串變數應填入什麼:
-
+(A)
 #!/usr/bin/python3
 a = ________
 print(a)
@@ -148,7 +154,7 @@ print(a)
 ```
 ```
 17.試問以下程式執行後輸出什麼結果:
-
+(B)
 #!/usr/bin/python3
 a = "Hello, World!"
 print(a[1])
@@ -157,7 +163,7 @@ print(a[1])
 ```
 ```
 18.要在螢幕輸出llo  底下程式需填入什麼:
-
+(C)
 #!/usr/bin/python3
 a = "Hello, World!"
 print(a[__________])
@@ -166,6 +172,7 @@ print(a[__________])
 ```
 ```
 19.試問以下程式執行後輸出什麼結果:
+(A)
 #!/usr/bin/python3
 a = "        HelloPython "
 print(a.strip())
@@ -177,10 +184,11 @@ print(a.strip())
 ```
 ```
 20.試問若要判斷Kun是否存在於txt字串中以下程式應填入什麼:
+(D)
 #!/usr/bin/python3
 txt = " Kun Shan University was officially founded on April 29, 1965"
 x = "Kun" __________ txt
-print(x) 
+print(X)
 
 (A) is
 (B) on
@@ -189,6 +197,7 @@ print(x)
 ```
 ```
 21.試問若要輸出a、b兩字串合併後的結果以下程式應填入什麼:
+(B)
 #!/usr/bin/python3
 a = “Kun Shan”
 b = “University”
@@ -201,6 +210,7 @@ print(__________)
 ```
 ```
 22.試問以下程式執行後輸出什麼結果:
+
 #!/usr/bin/python3
 a = “Kun Shan”
 b = 100
